@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch2Earn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Watch2Earn</h1>
+    
+    <div id="wallet-section">
+      <button id="connectWallet">Connect Wallet</button>
+      <p id="walletAddress"></p>
+    </div>
+
+    <div class="stats">
+      <p>Time Watched: <span id="timeWatched">0</span> seconds</p>
+      <p>Tickets Earned: <span id="tickets">0</span></p>
+    </div>
+
+    <div class="chart">
+      <iframe
+        src="https://pump.fun/coin/YOURCOIN"
+        width="600"
+        height="400"
+        title="Pump.fun Chart"
+      ></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
